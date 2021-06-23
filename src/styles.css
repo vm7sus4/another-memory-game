@@ -1,0 +1,25 @@
+#board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 10% 10%;
+}
+
+.card {
+    flex-grow: 1.5;
+    width: 20%;
+    min-height: 8rem;
+    background: hsl(0, 11%, 71%);
+    margin: 0.1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    .card {
+        min-height: 5rem;
+        width: 20%;
+    }
+}
